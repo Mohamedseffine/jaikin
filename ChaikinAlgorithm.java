@@ -165,6 +165,7 @@ public class ChaikinAlgorithm extends JPanel implements KeyListener, MouseListen
                 controlPoints.clear();
                 currentPoints.clear();
                 currentStep = 0;
+                repaint();
                 break;
         }
     }
