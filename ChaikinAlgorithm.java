@@ -160,7 +160,7 @@ public class ChaikinAlgorithm extends JPanel implements KeyListener, MouseListen
             case KeyEvent.VK_ESCAPE:
                 System.exit(0);
                 break;
-            case KeyEvent.VK_DELETE:
+            case KeyEvent.VK_BACK_SPACE:
                 animationRunning = false;
                 controlPoints.clear();
                 currentPoints.clear();
